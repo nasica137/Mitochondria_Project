@@ -36,11 +36,11 @@ conda env create -f environment.yml
 ```
 followed by invoking the cross_validation_predict_large_image.py script with python3.8 or later:
 
-Not Pretrained:
+**Not Pretrained:**
 ```bash
 python cross_validation_predict_large_image.py --encoder=mobilenet_v2 --loss=DiceLoss
 ```
-Pretrained:
+**Pretrained:**
 ```bash
 python cross_validation_predict_large_image.py --encoder=vgg16 --loss=DiceFocalLoss
 ```
