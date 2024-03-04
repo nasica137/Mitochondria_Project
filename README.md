@@ -33,9 +33,9 @@ The proper way to run the a prediction of the best model is by invoking the cros
 
 Not Pretrained:
 ```bash
-python cross_validation_predict_large_image.py --encoder==mobilenet_v2 --loss==DiceLoss
+python cross_validation_predict_large_image.py --encoder=mobilenet_v2 --loss=DiceLoss
 ```
 Pretrained:
 ```bash
-python cross_validation_predict_large_image.py --encoder==vgg16 --loss==DiceFocalLoss
+python cross_validation_predict_large_image.py --encoder=vgg16 --loss=DiceFocalLoss
 ```
