@@ -26,11 +26,6 @@ The project includes adaptations for each model involving various encoders and l
   - Background: 0.9284
   - Untreated: 0.6942
   - Treated: 0.8039
- 
-## Usage
-
-
-
 
 ## Usage
 
