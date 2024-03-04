@@ -26,3 +26,21 @@ The project includes adaptations for each model involving various encoders and l
   - Background: 0.9284
   - Untreated: 0.6942
   - Treated: 0.8039
+ 
+## Usage
+
+
+
+
+## Usage
+
+The proper way to run the a prediction of the best model is by invoking the cross_validation_predict_large_image.py script with python3.8 or later:
+
+Not Pretrained:
+```bash
+python cross_validation_predict_large_image.py --encoder==mobilenet_v2 --loss==DiceLoss
+```
+Pretrained:
+```bash
+python cross_validation_predict_large_image.py --encoder==vgg16 --loss==DiceFocalLoss
+```
