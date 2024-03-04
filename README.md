@@ -29,7 +29,12 @@ The project includes adaptations for each model involving various encoders and l
 
 ## Usage
 
-The proper way to run the a prediction of the best model is by invoking the cross_validation_predict_large_image.py script with python3.8 or later:
+The proper way to run a prediction of the best model is by activating the conda environment
+
+```bash
+conda env create -f environment.yml
+```
+followed by invoking the cross_validation_predict_large_image.py script with python3.8 or later:
 
 Not Pretrained:
 ```bash
